@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0277C6025C50B310028F756 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0277C5F25C50B310028F756 /* LoadingView.swift */; };
+		D0277C6325C520020028F756 /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0277C6225C520020028F756 /* PersonalView.swift */; };
+		D0277C6A25C574F60028F756 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0277C6925C574F60028F756 /* UserInfoView.swift */; };
+		D0277C6F25C5B27B0028F756 /* AlertTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0277C6E25C5B27B0028F756 /* AlertTest.swift */; };
 		D0663C4125C4184800BE2206 /* LeanCloudTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0663C4025C4184800BE2206 /* LeanCloudTestApp.swift */; };
 		D0663C4325C4184800BE2206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0663C4225C4184800BE2206 /* ContentView.swift */; };
 		D0663C4525C4184A00BE2206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0663C4425C4184A00BE2206 /* Assets.xcassets */; };
 		D0663C4825C4184A00BE2206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0663C4725C4184A00BE2206 /* Preview Assets.xcassets */; };
 		D0663C4A25C4184A00BE2206 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0663C4925C4184A00BE2206 /* Persistence.swift */; };
 		D0663C4D25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0663C4B25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld */; };
+		D0663C5625C4188900BE2206 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0663C5525C4188900BE2206 /* HomeTabView.swift */; };
+		D0CA805425C4301E00E9E6A7 /* LeanCloud in Frameworks */ = {isa = PBXBuildFile; productRef = D0CA805325C4301E00E9E6A7 /* LeanCloud */; };
+		D0CA806625C43DE400E9E6A7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA806525C43DE400E9E6A7 /* LogInView.swift */; };
+		D0CA806925C43FCC00E9E6A7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA806825C43FCC00E9E6A7 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0277C5F25C50B310028F756 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D0277C6225C520020028F756 /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
+		D0277C6925C574F60028F756 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		D0277C6E25C5B27B0028F756 /* AlertTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTest.swift; sourceTree = "<group>"; };
 		D0663C3D25C4184800BE2206 /* LeanCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeanCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0663C4025C4184800BE2206 /* LeanCloudTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCloudTestApp.swift; sourceTree = "<group>"; };
 		D0663C4225C4184800BE2206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +36,9 @@
 		D0663C4925C4184A00BE2206 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D0663C4C25C4184A00BE2206 /* LeanCloudTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeanCloudTest.xcdatamodel; sourceTree = "<group>"; };
 		D0663C4E25C4184A00BE2206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0663C5525C4188900BE2206 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		D0CA806525C43DE400E9E6A7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		D0CA806825C43FCC00E9E6A7 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +46,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CA805425C4301E00E9E6A7 /* LeanCloud in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0277C6625C525370028F756 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA806825C43FCC00E9E6A7 /* UserViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
 		D0663C3425C4184800BE2206 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +81,13 @@
 			isa = PBXGroup;
 			children = (
 				D0663C4025C4184800BE2206 /* LeanCloudTestApp.swift */,
+				D0663C5525C4188900BE2206 /* HomeTabView.swift */,
+				D0277C6625C525370028F756 /* VM */,
+				D0277C6225C520020028F756 /* PersonalView.swift */,
+				D0277C6925C574F60028F756 /* UserInfoView.swift */,
+				D0CA806525C43DE400E9E6A7 /* LogInView.swift */,
+				D0277C5F25C50B310028F756 /* LoadingView.swift */,
+				D0277C6E25C5B27B0028F756 /* AlertTest.swift */,
 				D0663C4225C4184800BE2206 /* ContentView.swift */,
 				D0663C4425C4184A00BE2206 /* Assets.xcassets */,
 				D0663C4925C4184A00BE2206 /* Persistence.swift */,
@@ -91,6 +122,9 @@
 			dependencies = (
 			);
 			name = LeanCloudTest;
+			packageProductDependencies = (
+				D0CA805325C4301E00E9E6A7 /* LeanCloud */,
+			);
 			productName = LeanCloudTest;
 			productReference = D0663C3D25C4184800BE2206 /* LeanCloudTest.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +152,9 @@
 				Base,
 			);
 			mainGroup = D0663C3425C4184800BE2206;
+			packageReferences = (
+				D0CA805225C4301E00E9E6A7 /* XCRemoteSwiftPackageReference "swift-sdk" */,
+			);
 			productRefGroup = D0663C3E25C4184800BE2206 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,10 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CA806625C43DE400E9E6A7 /* LogInView.swift in Sources */,
+				D0277C6A25C574F60028F756 /* UserInfoView.swift in Sources */,
 				D0663C4A25C4184A00BE2206 /* Persistence.swift in Sources */,
+				D0277C6325C520020028F756 /* PersonalView.swift in Sources */,
 				D0663C4D25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld in Sources */,
+				D0277C6F25C5B27B0028F756 /* AlertTest.swift in Sources */,
+				D0663C5625C4188900BE2206 /* HomeTabView.swift in Sources */,
 				D0663C4325C4184800BE2206 /* ContentView.swift in Sources */,
 				D0663C4125C4184800BE2206 /* LeanCloudTestApp.swift in Sources */,
+				D0CA806925C43FCC00E9E6A7 /* UserViewModel.swift in Sources */,
+				D0277C6025C50B310028F756 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0CA805225C4301E00E9E6A7 /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/dyeeee/swift-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 17.6.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0CA805325C4301E00E9E6A7 /* LeanCloud */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0CA805225C4301E00E9E6A7 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = LeanCloud;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D0663C4B25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld */ = {

@@ -6,15 +6,25 @@
 //
 
 import SwiftUI
+import LeanCloud
 
 @main
 struct LeanCloudTestApp: App {
     let persistenceController = PersistenceController.shared
 
+    init() {
+        UserViewModel.LeanCloudSet()
+        //LeanCloudTest()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeTabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+
+
+
