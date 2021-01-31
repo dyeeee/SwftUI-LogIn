@@ -18,6 +18,12 @@
 		D0663C4A25C4184A00BE2206 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0663C4925C4184A00BE2206 /* Persistence.swift */; };
 		D0663C4D25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0663C4B25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld */; };
 		D0663C5625C4188900BE2206 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0663C5525C4188900BE2206 /* HomeTabView.swift */; };
+		D0744C4225C651D2003F1045 /* ToDoItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0744C4025C651D2003F1045 /* ToDoItem+CoreDataClass.swift */; };
+		D0744C4325C651D2003F1045 /* ToDoItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0744C4125C651D2003F1045 /* ToDoItem+CoreDataProperties.swift */; };
+		D0744C4725C65201003F1045 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0744C4625C65201003F1045 /* DataViewModel.swift */; };
+		D0744C4A25C65BA3003F1045 /* DataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0744C4925C65BA3003F1045 /* DataListView.swift */; };
+		D0744C4E25C6E3F3003F1045 /* TimerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0744C4D25C6E3F3003F1045 /* TimerTestView.swift */; };
+		D0744C5525C6EB2A003F1045 /* TimerTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0744C5425C6EB2A003F1045 /* TimerTest2.swift */; };
 		D0CA805425C4301E00E9E6A7 /* LeanCloud in Frameworks */ = {isa = PBXBuildFile; productRef = D0CA805325C4301E00E9E6A7 /* LeanCloud */; };
 		D0CA806625C43DE400E9E6A7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA806525C43DE400E9E6A7 /* LogInView.swift */; };
 		D0CA806925C43FCC00E9E6A7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA806825C43FCC00E9E6A7 /* UserViewModel.swift */; };
@@ -37,6 +43,12 @@
 		D0663C4C25C4184A00BE2206 /* LeanCloudTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeanCloudTest.xcdatamodel; sourceTree = "<group>"; };
 		D0663C4E25C4184A00BE2206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0663C5525C4188900BE2206 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		D0744C4025C651D2003F1045 /* ToDoItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D0744C4125C651D2003F1045 /* ToDoItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0744C4625C65201003F1045 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		D0744C4925C65BA3003F1045 /* DataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListView.swift; sourceTree = "<group>"; };
+		D0744C4D25C6E3F3003F1045 /* TimerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTestView.swift; sourceTree = "<group>"; };
+		D0744C5425C6EB2A003F1045 /* TimerTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTest2.swift; sourceTree = "<group>"; };
 		D0CA806525C43DE400E9E6A7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		D0CA806825C43FCC00E9E6A7 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				D0CA806825C43FCC00E9E6A7 /* UserViewModel.swift */,
+				D0744C4625C65201003F1045 /* DataViewModel.swift */,
 			);
 			path = VM;
 			sourceTree = "<group>";
@@ -82,10 +95,11 @@
 			children = (
 				D0663C4025C4184800BE2206 /* LeanCloudTestApp.swift */,
 				D0663C5525C4188900BE2206 /* HomeTabView.swift */,
+				D0744C4525C651DD003F1045 /* Model */,
 				D0277C6625C525370028F756 /* VM */,
-				D0277C6225C520020028F756 /* PersonalView.swift */,
-				D0277C6925C574F60028F756 /* UserInfoView.swift */,
-				D0CA806525C43DE400E9E6A7 /* LogInView.swift */,
+				D0744C4C25C6E3E2003F1045 /* userView */,
+				D0744C5125C6E3FB003F1045 /* dataView */,
+				D0744C5225C6E408003F1045 /* TimerView */,
 				D0277C5F25C50B310028F756 /* LoadingView.swift */,
 				D0277C6E25C5B27B0028F756 /* AlertTest.swift */,
 				D0663C4225C4184800BE2206 /* ContentView.swift */,
@@ -104,6 +118,42 @@
 				D0663C4725C4184A00BE2206 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0744C4525C651DD003F1045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0744C4025C651D2003F1045 /* ToDoItem+CoreDataClass.swift */,
+				D0744C4125C651D2003F1045 /* ToDoItem+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0744C4C25C6E3E2003F1045 /* userView */ = {
+			isa = PBXGroup;
+			children = (
+				D0277C6225C520020028F756 /* PersonalView.swift */,
+				D0277C6925C574F60028F756 /* UserInfoView.swift */,
+				D0CA806525C43DE400E9E6A7 /* LogInView.swift */,
+			);
+			path = userView;
+			sourceTree = "<group>";
+		};
+		D0744C5125C6E3FB003F1045 /* dataView */ = {
+			isa = PBXGroup;
+			children = (
+				D0744C4925C65BA3003F1045 /* DataListView.swift */,
+			);
+			path = dataView;
+			sourceTree = "<group>";
+		};
+		D0744C5225C6E408003F1045 /* TimerView */ = {
+			isa = PBXGroup;
+			children = (
+				D0744C4D25C6E3F3003F1045 /* TimerTestView.swift */,
+				D0744C5425C6EB2A003F1045 /* TimerTest2.swift */,
+			);
+			path = TimerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,12 +235,18 @@
 				D0277C6A25C574F60028F756 /* UserInfoView.swift in Sources */,
 				D0663C4A25C4184A00BE2206 /* Persistence.swift in Sources */,
 				D0277C6325C520020028F756 /* PersonalView.swift in Sources */,
+				D0744C4225C651D2003F1045 /* ToDoItem+CoreDataClass.swift in Sources */,
 				D0663C4D25C4184A00BE2206 /* LeanCloudTest.xcdatamodeld in Sources */,
 				D0277C6F25C5B27B0028F756 /* AlertTest.swift in Sources */,
 				D0663C5625C4188900BE2206 /* HomeTabView.swift in Sources */,
 				D0663C4325C4184800BE2206 /* ContentView.swift in Sources */,
+				D0744C4A25C65BA3003F1045 /* DataListView.swift in Sources */,
+				D0744C4E25C6E3F3003F1045 /* TimerTestView.swift in Sources */,
+				D0744C5525C6EB2A003F1045 /* TimerTest2.swift in Sources */,
+				D0744C4325C651D2003F1045 /* ToDoItem+CoreDataProperties.swift in Sources */,
 				D0663C4125C4184800BE2206 /* LeanCloudTestApp.swift in Sources */,
 				D0CA806925C43FCC00E9E6A7 /* UserViewModel.swift in Sources */,
+				D0744C4725C65201003F1045 /* DataViewModel.swift in Sources */,
 				D0277C6025C50B310028F756 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

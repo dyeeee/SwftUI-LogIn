@@ -16,6 +16,16 @@ struct PersistenceController {
         for _ in 0..<10 {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
+            
+//            let todo = ToDoItem(context: viewContext)
+//            todo.id = Int16(i)
+//            todo.content = String("todo: \(i)|\(i)|\(i)")
+//            todo.isChanged = false
+//
+//            let timestamp = Item(context: viewContext)
+//            timestamp.timestamp = Date()
+//
+//            todo.timestamp = timestamp
         }
         do {
             try viewContext.save()

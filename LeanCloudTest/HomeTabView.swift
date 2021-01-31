@@ -15,7 +15,7 @@ struct HomeTabView: View {
                     Image(systemName: "1.square")
                     Text("TAB1") }
             
-            AlertTestView()
+            DataListView()
                 .tabItem {
                     Image(systemName: "2.square")
                     Text("TAB2") }
